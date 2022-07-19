@@ -1,0 +1,80 @@
+body
+{
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.Flight-trip-form
+{
+    max-width: 500px;
+    border : 1px solid #ced4da;
+    margin : 10% auto 0;
+    padding: 10px;
+}
+.radio-btn
+{
+    margin : 0 20px;
+}
+.radio-btn .btn
+{
+    margin: 20px 10px 20px 0;
+    box-shadow: none;
+}
+.radio-btn .btn::after
+{
+    content: '';
+    height: 15px;
+    width: 15px;
+    top: -2px;
+    left: -1px;
+    background-color: #fff;
+    position: relative;
+    display: inline-block;
+    border: 3px solid #fff;
+    visibility: visible;
+    border-radius: 50%;
+}
+.radio-btn .btn:checked::after
+{
+    content: '';
+    background-color: #000;
+    transition: 0.5s;
+}
+.radio-btn span
+{
+    color: #fff;
+    margin-right: 5px;
+    font-size: 15px;
+}
+.Flight-trip-form
+{
+    padding:0 20px 20px;
+}
+.Flight-trip-form label
+{
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+input ::placeholder
+{
+    color: #fff !important;
+
+}
+.input-grp
+{
+    width: 151px;
+    display: inline-block;
+}
+.Passenger Details
+{
+    display: inline;
+}
+.payment
+{
+    display: inline;
+    position: relative;
+}
+
